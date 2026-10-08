@@ -1,0 +1,18 @@
+# The plugin's manifest. Draft: the code still lives in keel-v2, so nothing is released yet.
+# Format: https://github.com/MiladNalbandi/keel-v2/tree/main/docs/plugins/02-plugin-package.md
+schema: 1
+name: tasks
+title: "Tasks"
+version: 0.0.0
+publisher: keel
+summary: "A list of work items. Start a flow from a task with one button."
+repo: https://github.com/MiladNalbandi/keel-plugin-tasks
+license: MIT
+
+requires:
+  sdk: 1
+
+parts:
+  api: { jars: [api/keel-plugin-tasks.jar] }
+  web: { entry: web/index.js }
+  migrations: migrations
