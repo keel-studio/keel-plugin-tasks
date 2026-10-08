@@ -6,7 +6,7 @@ title: "Tasks"
 version: 0.0.0
 publisher: keel
 summary: "A list of work items. Start a flow from a task with one button."
-repo: https://github.com/MiladNalbandi/keel-plugin-tasks
+repo: https://github.com/keel-studio/keel-plugin-tasks
 license: MIT
 
 requires:
